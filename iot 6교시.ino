@@ -2,7 +2,7 @@
 #define LED2_PIN 12
 #define LDR_PIN 34   // 조도센서 아날로그 입력
 
-int lightThreshold = 0;  // LED 켜짐 기준값, 환경에 맞게 조정
+int lightThreshold = 0;  //  LED 켜짐 기준값, 환경에 맞게 조정
 
 void setup() {
   pinMode(LED1_PIN, OUTPUT);
